@@ -1,0 +1,88 @@
+ body, h1, h2, h3, h4, h5, h6, address, blockquote, dd, dl, hr, div.paragraph, form{ margin: 0; padding: 0; }
+ body, h1, h2, h3, h4, h5, h6, address, blockquote, dd, dl, hr, p, form{ margin: 0; padding: 0; }
+ body{ font-family: futura, Arial, Helvetica, Georgia, Sans-Serif; font-size: 12px; text-align: center; vertical-align: top; background: #fff url(theme/pattern3.png%3F1555347414) repeat-x; color: #000; }
+ h1, h2, h3, h4, h5, h6{ line-height:1.5; font-family: futurA, Georgia, sans-serif; font-size: 14px; font-weight: bold; }
+ a{ text-decoration: underline; color: #728156; }
+ a:hover{ text-decoration: none; }
+ a img{ border: 0; }
+ abbr, acronym{ border: 0; }
+ blockquote{ margin: 15px 0 0; background: #faf5ef; color: #000; }
+ blockquote div.paragraph{ padding: 15px; }
+ blockquote p{ padding: 15px; }
+ blockquote blockquote{ margin: 15px; background: #fff; color: #333; }
+ code{ background: #f9f9f9; }
+ dt{ font-weight: bold; }
+ dd{ padding: 0 0 0 15px; }
+ hr{ clear: both; margin: 15px 15px 5px 15px; border: 0; height: 1px; text-align: left; background: #ede5da; color: #ede5da; }
+ small{ font-size: 11px; }
+ pre{ width: 90%; }
+ input, textarea{ font-family: futura, Arial, Helvetica, Georgia, sans-serif; font-size: 12px; padding: 2px; }
+ input#s, input#author, input#email, input#url, textarea#comment{ border: 1px solid #728156; background-color: #ffffff; padding: 3px; }
+ input#author, input#email, input#url{ margin: 0 5px 0 0; }
+ #container{ margin: 0 auto; width: 748px; }
+ #header{ float:left; width:748px; }
+ #header h1{ float: left; padding: 11px 30px 0px 15px; height: 26px; font-size: 24px; font-weight: normal; text-transform: capitalize; color: #fff; }
+ #header h1 a{ text-decoration: none; color: #fff; }
+ #header h1 a:hover{ text-decoration: underline; }
+ #menu { float:left; width:800px; font-family: FUTURA, Georgia, sans-serif; font-weight: ; padding-left:15px; text-transform: uppercase; color: #fff; position:relative; }
+ #menu ul { float:left; padding:10px 0; margin: 0; list-style:none; }
+ #menu li { float:left; background: url(theme/bullet.gif%3F1555347414) no-repeat 0 3px; padding: 1px 10px 5px 15px; font-size:1em; margin: 3px 3px 0 0; }
+ #menu li a { text-decoration: none; color: #fff; }
+ #menu #active a { text-decoration: underline; }
+ #pagewrapper{ float: left; width: 748px; padding: 23px 0; background: url(theme/bg_page2.gif%3F1555347414) no-repeat left top; }
+ #page{ padding: 0 23px; }
+ #banner{ float: left; width: 702px; height: 150px; background: url(theme/default_header.jpg%3F1555347414) no-repeat left top; clear: both; }
+ .maincolumn{ float: left; width: 100%; }
+ .post{ margin: 10px 0 0; padding: 15px; min-height:400px; height:auto !important; height:400px; }
+ .post h2{ padding: 5px 0 5px 0; font-size: 18px; font-weight: normal; color: #c97d05; }
+ .post h2 a{ text-decoration: none; color: #c97d05; }
+ .post h2 a:hover{ text-decoration: underline; }
+ .post{ line-height:1.5; }
+ .entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6{ border: 0; padding: 10px 0 0; }
+ .entry h1{ font-size: 24px; font-weight: normal; }
+ .entry h2{ font-size: 18px; color: #000; }
+ .entry h3{ color: #c97d05; }
+ .entry h4{}
+ .entry h5{ font-weight: normal; }
+ .entry h6{ font-size: 11px; font-weight: normal; }
+ .entry img{ border: 1px solid #e5d8c6; padding: 4px; background-color: #faf5ef; }
+ .entry img.wp-smiley{ padding: 0; border: 0; background-color: transparent; }
+ .entry img.alignleft{ float: left; margin: 5px 10px 0 0; }
+ .entry img.alignright{ float: right; margin: 5px 0 0 10px; }
+ .entry p.postinfo{ margin: 15px 0 0; padding: 10px 15px 0; border-top: 1px solid #e5d8c6; font-size: 11px; color: #b1a799; }
+ .entry p.notfound{ padding: 15px 0 100px; }
+ .browse{ margin: 20px 15px 15px 15px; border-top: 1px solid #e5d8c6; padding: 10px; line-height: 24px; text-align: center; }
+ #sidebar{ float: left; margin: 10px 0 0 10px; width: 192px; background: url(theme/bg_sidebar.gif%3F1555347414) no-repeat left top; }
+ #sidebar a{ color: #878773; }
+ #sidebar ul{ list-style: none; margin: 0; padding: 0; }
+ #sidebar ul li{ padding: 15px; font-family: Georgia, sans-seriff; text-transform: uppercase; }
+ #sidebar ul li.syndicate a{ padding: 0 20px 0 0; background: url(theme/feed-icon.gif%3F1555347414) no-repeat right 2px; }
+ #sidebar ul li h2{ border-bottom: 1px solid #ebe1d3; padding: 0 0 7px 0; font-size: 12px; color: #514129; }
+ #sidebar ul ul{ padding: 7px 0 0; }
+ #sidebar ul ul li{ padding: 0; font-family: Arial, Helvetica, Georgia, sans-seriff; line-height: 24px; text-transform: none; }
+ #sidebar ul ul ul{ padding: 0; }
+ #sidebar ul ul ul li{ padding: 0 0 0 15px; background: url(theme/bullet_2.gif%3F1555347414) no-repeat 0 8px; }
+ #sidebar ul ul ul ul li{ background: url(theme/bullet_3.gif%3F1555347414) no-repeat 0 8px; }
+ #sidebar ul ul ul ul ul li{ background: none; }
+ #comments-template{ border-top: 1px solid #e5d8c6; margin: 0px 15px; padding: 15px 0; }
+ #comments-template div.paragraph{ line-height: 24px; }
+ #comments-template p{ line-height: 24px; }
+ #comments-template p.nocomments{ padding: 0 15px; }
+ #comments-template h2, #comments-template h3{ font-size: 14px; font-weight: bold; color: #74624b; }
+ h3#comments, h3#respond{ padding: 0 0 0 15px; }
+ h3#respond{ padding: 30px 0 0 15px; }
+ #comments-template .commentmetadata{ font-size: 11px; }
+ #comments-template ol{ list-style: none; margin: 0; padding: 0; }
+ #comments-template ol li{ border-bottom: 1px solid #e5d8c6; padding: 15px 0 15px; }
+ table#wp-calendar{ width: 100%; font-family: Arial, Helvetica, Georgia, Sans-Serif; text-transform: none; }
+ table#wp-calendar caption{ padding: 10px 15px; }
+ table#wp-calendar th{ font-weight: normal; text-align: right; vertical-align: top; background: #faf5ef; }
+ table#wp-calendar td{ padding: 1px; text-align: right; }
+ table#wp-calendar tfoot td{ text-align: center; }
+ #container, #header, #menu, #pagewrapper, #page, #banner, .maincol, .post, .entry, #sidebar, #comments-template{ text-align: left; vertical-align:top; }
+
+div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0 !important; }
+div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
+div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
+div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
+blockquote { margin: 10px 0; padding-left: 20px; border-left: 4px solid #ddd; font-style: italic; line-height: 170%; }
