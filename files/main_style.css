@@ -1,6 +1,6 @@
  body, h1, h2, h3, h4, h5, h6, address, blockquote, dd, dl, hr, div.paragraph, form{ margin: 0; padding: 0; }
  body, h1, h2, h3, h4, h5, h6, address, blockquote, dd, dl, hr, p, form{ margin: 0; padding: 0; }
- body{ font-family: futura, Arial, Helvetica, Georgia, Sans-Serif; font-size: 12px; text-align: center; vertical-align: top; background: #fff url(theme/pattern3.png%3F1555347414) repeat-x; color: #000; }
+ body{ font-family: futura, Arial, Helvetica, Georgia, Sans-Serif; font-size: 12px; text-align: center; vertical-align: top; background: #fff url(theme/pattern3.png) repeat-x; color: #000; }
  h1, h2, h3, h4, h5, h6{ line-height:1.5; font-family: futurA, Georgia, sans-serif; font-size: 14px; font-weight: bold; }
  a{ text-decoration: underline; color: #728156; }
  a:hover{ text-decoration: none; }
@@ -26,12 +26,12 @@
  #header h1 a:hover{ text-decoration: underline; }
  #menu { float:left; width:800px; font-family: FUTURA, Georgia, sans-serif; font-weight: ; padding-left:15px; text-transform: uppercase; color: #fff; position:relative; }
  #menu ul { float:left; padding:10px 0; margin: 0; list-style:none; }
- #menu li { float:left; background: url(theme/bullet.gif%3F1555347414) no-repeat 0 3px; padding: 1px 10px 5px 15px; font-size:1em; margin: 3px 3px 0 0; }
+ #menu li { float:left; background: url(theme/bullet.gif) no-repeat 0 3px; padding: 1px 10px 5px 15px; font-size:1em; margin: 3px 3px 0 0; }
  #menu li a { text-decoration: none; color: #fff; }
  #menu #active a { text-decoration: underline; }
- #pagewrapper{ float: left; width: 748px; padding: 23px 0; background: url(theme/bg_page2.gif%3F1555347414) no-repeat left top; }
+ #pagewrapper{ float: left; width: 748px; padding: 23px 0; background: url(theme/bg_page2.gif) no-repeat left top; }
  #page{ padding: 0 23px; }
- #banner{ float: left; width: 702px; height: 150px; background: url(theme/default_header.jpg%3F1555347414) no-repeat left top; clear: both; }
+ #banner{ float: left; width: 702px; height: 150px; background: url(theme/default_header.jpg) no-repeat left top; clear: both; }
  .maincolumn{ float: left; width: 100%; }
  .post{ margin: 10px 0 0; padding: 15px; min-height:400px; height:auto !important; height:400px; }
  .post h2{ padding: 5px 0 5px 0; font-size: 18px; font-weight: normal; color: #c97d05; }
@@ -52,17 +52,17 @@
  .entry p.postinfo{ margin: 15px 0 0; padding: 10px 15px 0; border-top: 1px solid #e5d8c6; font-size: 11px; color: #b1a799; }
  .entry p.notfound{ padding: 15px 0 100px; }
  .browse{ margin: 20px 15px 15px 15px; border-top: 1px solid #e5d8c6; padding: 10px; line-height: 24px; text-align: center; }
- #sidebar{ float: left; margin: 10px 0 0 10px; width: 192px; background: url(theme/bg_sidebar.gif%3F1555347414) no-repeat left top; }
+ #sidebar{ float: left; margin: 10px 0 0 10px; width: 192px; background: url(theme/bg_sidebar.gif) no-repeat left top; }
  #sidebar a{ color: #878773; }
  #sidebar ul{ list-style: none; margin: 0; padding: 0; }
  #sidebar ul li{ padding: 15px; font-family: Georgia, sans-seriff; text-transform: uppercase; }
- #sidebar ul li.syndicate a{ padding: 0 20px 0 0; background: url(theme/feed-icon.gif%3F1555347414) no-repeat right 2px; }
+ #sidebar ul li.syndicate a{ padding: 0 20px 0 0; background: url(theme/feed-icon.gif) no-repeat right 2px; }
  #sidebar ul li h2{ border-bottom: 1px solid #ebe1d3; padding: 0 0 7px 0; font-size: 12px; color: #514129; }
  #sidebar ul ul{ padding: 7px 0 0; }
  #sidebar ul ul li{ padding: 0; font-family: Arial, Helvetica, Georgia, sans-seriff; line-height: 24px; text-transform: none; }
  #sidebar ul ul ul{ padding: 0; }
- #sidebar ul ul ul li{ padding: 0 0 0 15px; background: url(theme/bullet_2.gif%3F1555347414) no-repeat 0 8px; }
- #sidebar ul ul ul ul li{ background: url(theme/bullet_3.gif%3F1555347414) no-repeat 0 8px; }
+ #sidebar ul ul ul li{ padding: 0 0 0 15px; background: url(theme/bullet_2.gif) no-repeat 0 8px; }
+ #sidebar ul ul ul ul li{ background: url(theme/bullet_3.gif) no-repeat 0 8px; }
  #sidebar ul ul ul ul ul li{ background: none; }
  #comments-template{ border-top: 1px solid #e5d8c6; margin: 0px 15px; padding: 15px 0; }
  #comments-template div.paragraph{ line-height: 24px; }
